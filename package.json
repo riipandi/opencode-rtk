@@ -1,6 +1,6 @@
 {
     "name": "opencode-rtk",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "description": "OpenCode plugin for RTK - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands",
     "type": "module",
     "author": "Aris Ripandi <aris@duck.com>",
