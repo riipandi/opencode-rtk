@@ -1,0 +1,48 @@
+{
+    "name": "opencode-rtk",
+    "version": "0.0.1",
+    "description": "OpenCode plugin for RTK - CLI proxy that reduces LLM token consumption by 60-90% on common dev commands",
+    "type": "module",
+    "author": "Aris Ripandi <aris@duck.com>",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/opencode-rtk.git"
+    },
+    "bugs": {
+        "url": "https://github.com/opencode-rtk/issues"
+    },
+    "homepage": "https://github.com/opencode-rtk#readme",
+    "license": "MIT",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "pnpm run build",
+        "typecheck": "tsc --noEmit"
+    },
+    "dependencies": {
+        "@opencode-ai/plugin": "^1.1.6",
+        "diff": "^8.0.2"
+    },
+    "devDependencies": {
+        "@types/diff": "^7.0.2",
+        "@types/node": "^20.0.0",
+        "typescript": "^5.0.0"
+    },
+    "files": [
+        "dist",
+        "README.md",
+        "LICENSE"
+    ],
+    "keywords": [
+        "opencode",
+        "plugin",
+        "rtk",
+        "proxy",
+        "llm"
+    ],
+    "engines": {
+        "node": ">=20.20.0"
+    },
+    "packageManager": "pnpm@10.30.3"
+}
