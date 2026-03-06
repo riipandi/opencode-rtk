@@ -3,7 +3,7 @@
 # git push origin --delete v0.1.0
 # git tag --delete v0.1.0
 # git tag v0.1.0 -m "version bump"
-# git push origin --tags
+# git push origin v0.1.0
 
 name: Publish to npm
 
